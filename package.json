@@ -1,5 +1,5 @@
 {
-  "name": "itbilu.com/chartistSvg",
+  "name": "svg-chartist",
   "version": "1.0.0",
   "description": "generate SVG chart use Chartist on Node.js server side",
   "main": "index.js",

@@ -5,13 +5,13 @@ chartistSvg is a node.js server-side wrapper for [Chartist](http://gionkunz.gith
 
 # Installation
 ```
-npm install chartistSvg --save
+npm install svg-chartist --save
 ```
 
 # API
 `chartistSvg` is exported as a function, you can reference it like this:
 ```
-const chartistSvg = require('chartistSvg');
+const chartistSvg = require('svg-chartist');
 ```
 ## chartistSvg(type, chartData, opts)
 A top-level function for generating static SVG chart. Returns a Promise that fulfilled with the static chart HTML.
@@ -34,7 +34,7 @@ A top-level function for generating static SVG chart. Returns a Promise that ful
 # Examples
 Simple line chart
 ```
-const chartistSvg = require('chartistSvg');
+const chartistSvg = require('svg-chartist');
 const fs = require('fs');
 
 const data = {
@@ -65,7 +65,7 @@ chartistSvg('line', data, opts).then((html) => {
 
 Simple pie chart
 ```
-const chartistSvg = require('../');
+const chartistSvg = require('svg-chartist');
 const fs = require('fs');
 
 const data = {
@@ -93,7 +93,7 @@ chartistSvg('pie', data, opts).then((html) => {
 
 Custom bar chart
 ```
-const chartistSvg = require('../');
+const chartistSvg = require('svg-chartist');
 const fs = require('fs');
 
 const data = {
