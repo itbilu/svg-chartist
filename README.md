@@ -1,7 +1,7 @@
-# chartistSvg
+# svg-chartist
 Generate SVG chart use Chartist on Node.js server side
 
-chartistSvg is a node.js server-side wrapper for [Chartist](http://gionkunz.github.io/chartist-js/index.html), it modified from [chartist-svg](https://github.com/nodef/chartist-svg). Can be used to generate static SVG charts, you can insert raw SVG charts into HTML pages or export PDFs.
+`svg-chartist` is a node.js server-side wrapper for [Chartist](http://gionkunz.github.io/chartist-js/index.html), it modified from [chartist-svg](https://github.com/nodef/chartist-svg). Can be used to generate static SVG charts, you can insert raw SVG charts into HTML pages or export PDFs.
 
 # Installation
 ```
@@ -9,7 +9,7 @@ npm install svg-chartist --save
 ```
 
 # API
-`chartistSvg` is exported as a function, you can reference it like this:
+`svg-chartist` is exported as a function, you can reference it like this:
 ```
 const chartistSvg = require('svg-chartist');
 ```
@@ -138,3 +138,4 @@ chartistSvg('bar', data, opts).then((html) => {
 })
 ```
 
+- [中文本API](https://itbilu.com/nodejs/npm/BkCASacpm.html)
